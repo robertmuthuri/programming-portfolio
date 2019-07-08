@@ -4,3 +4,9 @@ body {
   color: #E5D6D6;
   font-family: avenir;
 }
+.sidebar {
+  width: 40%;
+  float: right;
+  background-color: #DBC6C6;
+  color: #803232;
+}
