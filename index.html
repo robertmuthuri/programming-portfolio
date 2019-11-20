@@ -1,92 +1,161 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="utf-8">
-    
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/mdb.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    
-    <title>My portfolio</title>
-  </head>
-  <body>
-    <h1>Robert Muthuri</h1>
-    <h5>I consider myself a <strong>life-long learner</strong> whose motiving comes from trying to understand how we can apply technology to solve the problems of regulatory compliance. That said, I have a background in technology and innovation with a particular focus on the regulation of startups.</h5>
-    <h3><a href="https://robertmuthuri.github.io/delani-studio/"> Github repo</a></h3>
-    <p>If I were to be an animal, I'd choose to be a <em>Giraffe</em> for its sense of vision, gait and compusure.</p>
-    <img src="images/giraffe.jpg" height=350px alt="An image of a Giraffe.">
-    <div class="sidebar">
-      <h3>My current hobbies</h3>
-      <ul>
-        <li>Hiking</li>
-        <li>Camping</li>
-        <li>Graphic Design</li>
-        <li>Racing</li>
-        <li><span style ="color:blue">Partnered</span> dancing</li>
-      </ul>
-    </div>
-    <h2>My projects to date:</h2>
-    <div class="card-deck">
-      
-      <!--Card-->
-      <div class="card mb-4">
-        <!--Card image-->
-        <div class="view overlay">
-          <img class="card-img-top" src="" alt="">
-        </div>
-        <!--Card content-->
-        <div class="card-body">
-      
-          <!--Title-->
-          <h4 class="card-title">Java Script</h4>
-      
-          <!--Text-->
-          <p class="card-text"><a href="https://robertmuthuri.github.io/delani-studio/"> Delani Studio:</a> This is a portfolio website for Delani Studios that shows an overall 8 projects that the studio has excelled in the past. The landing page contains an About Us section, a Services section, What we do, Portfolio and a Contact Us log for the site users.</p>
-          
-        </div>
-      </div>
-      <!--Card-->
-      <div class="card mb-4">
-        <!--Card image-->
-        <div class="view overlay">
-          <img class="card-img-top" src="" alt="">
-        </div>
-        <!--Card content-->
-        <div class="card-body">
-      
-          <!--Title-->
-          <h4 class="card-title">Angular</h4>
-      
-          <!--Text-->
-          <p class="card-text"><a href="https://robertmuthuri.github.io/github/home/">Github Search:</a> This is a website featuring a search function of all github repos. You can search by user name and their respective user details and repos will be displayed.</p>
-          <p class="card-text"><a href="https://robertmuthuri.github.io/quotes/">Quotes:</a> This is a website featuring my favourite quotes on innovation. You can also add your own quotes.</p>
-          
-        </div>
-      </div>
-      <!--Card-->
-      <div class="card mb-4">
-        <!--Card image-->
-        <div class="view overlay">
-          <img class="card-img-top" src="" alt="">
-        </div>
-        <!--Card content-->
-        <div class="card-body">
-      
-          <!--Title-->
-          <h4 class="card-title">Java, Spark</h4>
-      
-          <!--Text-->
-          <p class="card-text"><a href="https://the-hero-squads.herokuapp.com/"> Hero Squad: </a> This is a project to ensemble hero squads. A user can add Heroes and choose a squad for them.</p>
-          
-        </div>
-      </div>
-      
-    </div>
-<!--    <ol>-->
-<!--      <li> Java Script - <a href="https://robertmuthuri.github.io/delani-studio/"> Delani Studio:</a> This is a portfolio website for Delani Studios that shows an overall 8 projects that the studio has excelled in the past. The landing page contains an About Us section, a Services section, What we do, Portfolio and a Contact Us log for the site users.</li>-->
-<!--      <li>Angular - <a href="https://robertmuthuri.github.io/github/home/">Github Search:</a> This is a website featuring a search function of all github repos. You can search by user name and their respective user details and repos will be displayed.</li>-->
-<!--      <li>Angular - <a href="https://robertmuthuri.github.io/quotes/">Quotes:</a> This is a website featuring my favourite quotes on innovation. You can also add your own quotes.</li>-->
-<!--      <li>Java, Spark <a href="https://the-hero-squads.herokuapp.com/"> Hero Squad: </a> This is a project to ensemble hero squads. A user can add Heroes and choose a squad for them.</li>-->
-<!--    </ol>-->
-  </body>
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/mdb.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	
+	
+	<title>My portfolio</title>
+</head>
+<body>
+<div id="wrapper" class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand "href="#">ROBERT MUTHURI</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">PUBLICATIONS <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">BLOG <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></a>
+				</li>
+				<!-- <li class="nav-item"></li> -->
+				<!-- <li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</li> -->
+				<!-- <li class="nav-item">
+				  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				</li> -->
+			</ul>
+			<nav class="navbar navbar-light bg-light">
+				<form class="form-inline">
+<!--					<button class="btn btn-outline-success" type="button">Github Repo</button>-->
+					<a class="nav-link" href="https://github.com/robertmuthuri"> Github repo</a>
+				</form>
+			</nav>
+<!--			<form class="form-inline my-2 my-log-0">-->
+<!--				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+<!--				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+<!--			</form>-->
+		</div>
+	</nav>
+	
+	<div id="particle-div"></div>
+	
+	<h4>About Me</h4>
+	
+	<p>I consider myself a <strong>life-long learner</strong> whose motivation comes from trying to understand how we
+		can apply technology to solve the problems of regulatory compliance. That said, I have a background in
+		technology and innovation with a particular focus on the regulation of startups.</p>
+	
+	<p>If I were to be an animal, I'd choose to be a <em>Giraffe</em> for its sense of vision, gait and compusure.</p>
+	<img src="images/giraffe.jpg" height=350px alt="An image of a Giraffe.">
+	<div class="sidebar">
+		<h3>My current hobbies</h3>
+		<ul>
+			<li>Hiking</li>
+			<li>Camping</li>
+			<li>Graphic Design</li>
+			<li>Racing</li>
+			<li><span style="color:blue">Partnered</span> dancing</li>
+		</ul>
+	</div>
+	<h2>My projects to date:</h2>
+	<div class="card-deck">
+		
+		<!--Card-->
+		<div class="card mb-4">
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="" alt="">
+			</div>
+			<!--Card content-->
+			<div class="card-body">
+				
+				<!--Title-->
+				<h4 class="card-title">Java Script</h4>
+				
+				<!--Text-->
+				<p class="card-text"><a href="https://robertmuthuri.github.io/delani-studio/"> Delani Studio:</a> This
+					is a portfolio website for Delani Studios that shows an overall 8 projects that the studio has
+					excelled in the past. The landing page contains an About Us section, a Services section, What we do,
+					Portfolio and a Contact Us log for the site users.</p>
+			
+			</div>
+		</div>
+		<!--Card-->
+		<div class="card mb-4">
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="" alt="">
+			</div>
+			<!--Card content-->
+			<div class="card-body">
+				
+				<!--Title-->
+				<h4 class="card-title">Angular</h4>
+				
+				<!--Text-->
+				<p class="card-text"><a href="https://robertmuthuri.github.io/github/home/">Github Search:</a> This is a
+					website featuring a search function of all github repos. You can search by user name and their
+					respective user details and repos will be displayed.</p>
+				<p class="card-text"><a href="https://robertmuthuri.github.io/quotes/">Quotes:</a> This is a website
+					featuring my favourite quotes on innovation. You can also add your own quotes.</p>
+			
+			</div>
+		</div>
+		<!--Card-->
+		<div class="card mb-4">
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="" alt="">
+			</div>
+			<!--Card content-->
+			<div class="card-body">
+				
+				<!--Title-->
+				<h4 class="card-title">Java, Spark</h4>
+				
+				<!--Text-->
+				<p class="card-text"><a href="https://the-hero-squads.herokuapp.com/"> Hero Squad: </a> This is a
+					project to ensemble hero squads. A user can add Heroes and choose a squad for them.</p>
+			
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/particles.js"></script>
+<script>
+	
+	$(document).ready(function () {
+		particlesJS.load('particle-div', 'js/particle-cfg.json');
+		window.pJSDom[0].pJS.particles.number.value = 10;
+		window.pJSDom[0].pJS.fn.particlesRefresh();
+	});
+</script>
+
 </html>

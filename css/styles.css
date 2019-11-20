@@ -2,14 +2,21 @@
 body {
   background-color: #803232;
   color: #E5D6D6;
-  font-family: avenir;
+  font-family: avenir, sans-serif;
 }
 .sidebar {
-  width: 40%;
+  width: 20%;
   float: right;
   background-color: #DBC6C6;
   color: #803232;
 }
-a {
-  color: aqua;
+#wrapper {
+  margin: 0;
+  padding: 0;
+
+}
+#particle-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
